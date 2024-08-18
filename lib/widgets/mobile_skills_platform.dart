@@ -76,10 +76,11 @@ class MobileSkillsPlatform extends StatelessWidget {
                                           child: Text(
                                       skillItems[index]['title'],
                                       style: TextStyle(
+                                        fontFamily: "FontMain",
                                         color: theme.theme == '1' || theme.theme == '7'
                                             ?theme.textLight.value
                                             :theme.textDark.value,
-                                        fontSize: 18,
+                                        fontSize: 25,
                                         fontWeight: FontWeight.bold,
                                       ),
                                             textAlign: TextAlign.center,

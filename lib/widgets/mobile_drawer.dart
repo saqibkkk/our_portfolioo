@@ -41,8 +41,9 @@ class MobileDrawer extends StatelessWidget {
                   ListTile(
                     contentPadding: EdgeInsets.symmetric(horizontal: 30),
                     titleTextStyle: TextStyle(
+                      fontFamily: "FontNavBar",
                         fontWeight: FontWeight.w600,
-                        fontSize: 15,
+                        fontSize: 20,
                         color:
                         theme.theme == '1'
                             ?theme.textLight.value
@@ -106,15 +107,18 @@ class ColorBox extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container(
-      width: 20, // Adjust size as needed
-      height: 20,
-      decoration: BoxDecoration(
-        color: color,
-        shape: BoxShape.circle,
-        border: Border.all(
-          color: Colors.white, // Border color
-          width: 1, // Border width
+    return Padding(
+      padding: const EdgeInsets.only(left: 2, right: 2),
+      child: Container(
+        width: 20, // Adjust size as needed
+        height: 20,
+        decoration: BoxDecoration(
+          color: color,
+          shape: BoxShape.circle,
+          border: Border.all(
+            color: Colors.white, // Border color
+            width: 1, // Border width
+          ),
         ),
       ),
     );

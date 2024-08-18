@@ -43,7 +43,8 @@ class DesktopSkillsPlatform extends StatelessWidget {
                           leading: Image.asset(platformItems[i]['img'],  filterQuality: FilterQuality.high,),
                           title: Text(
                             platformItems[i]['title'],
-                            style: TextStyle(color: theme.textLight.value),
+                            style: TextStyle(
+                                color: theme.textLight.value),
                           ),
                         ),
                       ),
@@ -91,10 +92,11 @@ class DesktopSkillsPlatform extends StatelessWidget {
                                   child: Text(
                                     skillItems[index]['title'],
                                     style: TextStyle(
+                                      fontFamily: "FontMain",
                                       color: theme.theme == '1' || theme.theme == '7'
                                           ? theme.textLight.value
                                           : theme.textDark.value,
-                                      fontSize: 25,
+                                      fontSize: 30,
                                       fontWeight: FontWeight.bold,
                                     ),
                                     textAlign: TextAlign.center, // Center text horizontally

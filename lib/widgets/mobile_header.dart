@@ -23,13 +23,25 @@ class MobileHeader extends StatelessWidget {
               borderRadius: BorderRadius.circular(100)),
           child: Row(
             children: [
-              SiteLogo(
-                onTap: () {
-                  if (onLogoTap != null) {
-                    onLogoTap!();  // Call the onLogoTap callback
-                  }
-                  print('Logo button is pressed');
-                },
+              Padding(
+                padding: const EdgeInsets.only(top: 8, bottom: 8),
+                child: SiteLogo(
+                  onTap: () {
+                    if (onLogoTap != null) {
+                      onLogoTap!();  // Call the onLogoTap callback
+                    }
+                    print('Logo button is pressed');
+                  },
+                ),
+              ),
+              Text(
+                'PORTFOLIO',
+                style: TextStyle(
+                    fontFamily: "FontTitle",
+                    color: theme.scaffolBg.value,
+                    fontSize: 16,
+                    fontWeight: FontWeight.bold,
+                    letterSpacing: 3),
               ),
               const Spacer(),
 

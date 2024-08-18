@@ -12,7 +12,6 @@ class Projects extends StatelessWidget {
 
     final screenSize = MediaQuery.of(context).size;
     final screenWidth = screenSize.width;
-    final screenHeight = screenSize.height;
 
     return GetBuilder<ThemeController>(
         id: '0',
@@ -25,10 +24,11 @@ class Projects extends StatelessWidget {
             //   Work Project cards
             SizedBox(height: 20,),
             Text(
-              "Our Work Projects",
+              "Work Projects:",
               style: TextStyle(
-                  fontWeight: FontWeight.bold,
-                  fontSize: 24,
+                fontFamily: "FontMain",
+                fontWeight: FontWeight.bold,
+                fontSize: 40,
                   color: theme.theme == '1'
                       ?theme.textLight.value
                       :theme.textDark.value,),
@@ -55,10 +55,11 @@ class Projects extends StatelessWidget {
             ),
             // Hobby Projects
             Text(
-              "Hobby Projects",
+              "My Hobby Projects:",
               style: TextStyle(
-                  fontWeight: FontWeight.bold,
-                  fontSize: 24,
+                fontFamily: "FontMain",
+                fontWeight: FontWeight.bold,
+                fontSize: 40,
                   color: theme.theme == '1'
                       ?theme.textLight.value
                       :theme.textDark.value,),

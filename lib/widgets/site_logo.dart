@@ -19,14 +19,6 @@ class SiteLogo extends StatelessWidget {
                 SizedBox(
                   width: 10,
                 ),
-                Text(
-                  'PORTFOLIO',
-                  style: TextStyle(
-                      color: theme.scaffolBg.value,
-                      fontSize: 24,
-                      fontWeight: FontWeight.bold,
-                  letterSpacing: 5),
-                )
               ],
             ),
           );

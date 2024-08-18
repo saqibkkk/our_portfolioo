@@ -12,7 +12,6 @@ class DesktopMain extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final screenSize = MediaQuery.of(context).size;
-    final screenWidth = screenSize.width;
     final screenHeight = screenSize.height;
 
     final TypingTextController typingController = Get.put(TypingTextController(
@@ -37,6 +36,7 @@ class DesktopMain extends StatelessWidget {
                 TypingTextSwitcher(
                   controller: typingController,
                   textStyle: TextStyle(
+                    fontFamily: "FontMain",
                     fontSize: 60,
                     // fontStyle: FontStyle.italic,
                     fontWeight: FontWeight.bold,
@@ -46,8 +46,8 @@ class DesktopMain extends StatelessWidget {
                 ),
                 SizedBox(height: 30),
                 Container(
-                  height: 60,
-                  width: 200,
+                  height: 50,
+                  width: 180,
                   child: ElevatedButton(
                     style: ElevatedButton.styleFrom(
                       textStyle: TextStyle(fontWeight: FontWeight.bold, fontSize: 25),

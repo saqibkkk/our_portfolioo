@@ -29,10 +29,19 @@ class DesktopHeader extends StatelessWidget {
             child: Row(
               children: [
                 Padding(
-                  padding: const EdgeInsets.all(8),
+                  padding: const EdgeInsets.only(top: 8, bottom: 8),
                   child: SiteLogo(
                     onTap: () {},
                   ),
+                ),
+                Text(
+                  'PORTFOLIO',
+                  style: TextStyle(
+                      fontFamily: "FontTitle",
+                      color: theme.scaffolBg.value,
+                      fontSize: 24,
+                      fontWeight: FontWeight.bold,
+                      letterSpacing: 5),
                 ),
                 Spacer(),
                 for (int i = 0; i < navTitles.length; i++)
@@ -46,12 +55,13 @@ class DesktopHeader extends StatelessWidget {
                         backgroundColor: navTitles[i] == 'Contacts'
                             ? theme.scaffolBg.value
                             : Colors.transparent,
-                        padding: EdgeInsets.symmetric(horizontal: 20, vertical: 10),
+                        padding: EdgeInsets.symmetric(horizontal: 10, vertical: 10),
                       ),
                       child: Text(
                         navTitles[i],
                         style: TextStyle(
-                          fontSize: 16,
+                          fontFamily: "FontNavBar",
+                          fontSize: 26,
                           fontWeight: FontWeight.w500,
                           color:
                           theme.theme == '1'
@@ -111,15 +121,18 @@ class ColorBox extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container(
-      width: 20, // Adjust size as needed
-      height: 20,
-      decoration: BoxDecoration(
-        color: color,
-        shape: BoxShape.circle,
-        border: Border.all(
-          color: Colors.white, // Border color
-          width: 1, // Border width
+    return Padding(
+      padding: const EdgeInsets.only(left: 2, right: 2),
+      child: Container(
+        width: 20, // Adjust size as needed
+        height: 20,
+        decoration: BoxDecoration(
+          color: color,
+          shape: BoxShape.circle,
+          border: Border.all(
+            color: Colors.white, // Border color
+            width: 1, // Border width
+          ),
         ),
       ),
     );

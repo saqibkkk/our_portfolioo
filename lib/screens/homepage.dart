@@ -106,10 +106,11 @@ class _HomepageState extends State<Homepage> {
                               mainAxisSize: MainAxisSize.min,
                               children: [
                                 Text(
-                                  "What We can do:",
+                                  "Our Services:",
                                   style: TextStyle(
+                                    fontFamily: "FontMain",
                                     fontWeight: FontWeight.bold,
-                                    fontSize: 24,
+                                    fontSize: 40,
                                     color: theme.theme == '1'
                                         ? theme.textLight.value
                                         : theme.textDark.value,
@@ -138,8 +139,9 @@ class _HomepageState extends State<Homepage> {
                                 Text(
                                   "Get In Touch",
                                   style: TextStyle(
+                                    fontFamily: "FontMain",
                                     fontWeight: FontWeight.bold,
-                                    fontSize: 24,
+                                    fontSize: 40,
                                     color: theme.theme == '1'
                                         ? theme.textLight.value
                                         : theme.textDark.value,

@@ -13,7 +13,6 @@ class MobileMain extends StatelessWidget {
   Widget build(BuildContext context) {
     final screenSize = MediaQuery.of(context).size;
     final screenHeight = screenSize.height;
-    final screenWidth = screenSize.width;
     final TypingTextController controller = Get.put(TypingTextController(
       lines: [
         'Want to Develop A Mobile Application or A Website?',
@@ -27,29 +26,12 @@ class MobileMain extends StatelessWidget {
       builder: (themes) {
         return Container(
           margin: EdgeInsets.symmetric(horizontal: 0, vertical: 0),
-          height: screenHeight * 0.5, // Ensure height is set properly
+          height: screenHeight * 0.5,
           constraints: BoxConstraints(minHeight: 350),
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             crossAxisAlignment: CrossAxisAlignment.center,
             children: [
-              // Container(
-              //   child: Image.asset(
-              //     themes.theme == '0' && themes.theme == '1'
-              //         ? 'assets/videos/home_light_dark.gif'
-              //         : themes.theme == '2'
-              //             ? 'assets/videos/home_blue.gif'
-              //             : themes.theme == '3'
-              //                 ? 'assets/videos/home_red.gif'
-              //                 : themes.theme == '4'
-              //                     ? 'assets/videos/home_green.gif'
-              //                     : themes.theme == '5'
-              //                         ? 'assets/videos/home_purple.gif'
-              //                         : themes.theme == '6'
-              //                             ? 'assets/videos/home_yellow.gif'
-              //                             : 'assets/videos/home_light_dark.gif',
-              //   ),
-              // ),
               Container(
                 padding: EdgeInsets.only(left: 20, right: 20),
                 alignment: Alignment.center,
@@ -57,9 +39,9 @@ class MobileMain extends StatelessWidget {
                 child: TypingTextSwitcher(
                   controller: controller,
                   textStyle: TextStyle(
+                      fontFamily: "FontMain",
                     fontWeight: FontWeight.w800,
-                    fontSize: 25,
-                    // fontStyle: FontStyle.italic,
+                    fontSize: 30,
                     color: theme.textLight.value
                   ),
                 ),
@@ -87,7 +69,7 @@ class MobileMain extends StatelessWidget {
                   child: Text(
                     "Contact Us",
                     style: TextStyle(
-                      fontSize: 16,
+                      fontSize: 15,
                       fontWeight: FontWeight.bold
                     ),
                   ),

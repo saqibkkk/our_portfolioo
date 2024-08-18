@@ -15,6 +15,9 @@ class Assets {
   static const String contactsGithub = 'assets/contacts/github.png';
   static const String contactsInstagram = 'assets/contacts/instagram.png';
   static const String contactsLinkedin = 'assets/contacts/linkedin.png';
+  static const String fonts1 = 'assets/fonts/1.ttf';
+  static const String fontsCaveatRegular = 'assets/fonts/2.ttf';
+  static const String fontsMatemasieRegular = 'assets/fonts/0.ttf';
   static const String gif012 = 'assets/gif/012.gif';
   static const String gif37 = 'assets/gif/37.gif';
   static const String gif4 = 'assets/gif/4.gif';
