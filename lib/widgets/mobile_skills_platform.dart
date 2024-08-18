@@ -42,7 +42,7 @@ class MobileSkillsPlatform extends StatelessWidget {
               // Skills
               Container(
                 child: ConstrainedBox(
-                  constraints: BoxConstraints(maxWidth: 500, maxHeight: 150),
+                  constraints: BoxConstraints(maxWidth: 500, maxHeight: 170),
                   child: PageView.builder(
                     controller: controller.pageController,
                     itemCount: skillItems.length,
