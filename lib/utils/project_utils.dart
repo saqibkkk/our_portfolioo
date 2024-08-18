@@ -44,11 +44,11 @@ List<ProjectUtils> workProjectUtils = [
       title: "My Good Movers",
       subtitle: 'React based web application, which connect you with reliable movers across the USA. ',
       webLink: 'https://mygoodmovers.com/'),
-  // ProjectUtils(
-  //     image: 'assets/projects/accounting.jpg',
-  //     title: "Accounting Application",
-  //     subtitle: 'A flutter based under development accounting application with completed frontend.',
-  //     driveLink: 'https://drive.google.com/file/d/15P-P5B3O29rMal9UiST_y0LwNJrhyBSq/view?usp=sharing'),
+  ProjectUtils(
+      image: 'assets/projects/accounting.jpg',
+      title: "Accounting Application",
+      subtitle: 'A flutter based under development accounting application with completed frontend.',
+      driveLink: 'https://drive.google.com/file/d/15P-P5B3O29rMal9UiST_y0LwNJrhyBSq/view?usp=sharing'),
   ProjectUtils(
       image: 'assets/projects/movingjourney.png',
       title: "My Moving Journey",
