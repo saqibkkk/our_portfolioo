@@ -24,7 +24,8 @@ List<ProjectUtils> hobbyProjectUtils = [
       image: 'assets/projects/chatting.jpg',
       title: "Chatting Application",
       subtitle: 'Flutter based chatting mobile application with amazing features like fingerprint authentication and custom themes.',
-      driveLink: 'https://drive.google.com/file/d/1sp0H23LhsHxxH-3xzMKaAa2rcfnhGmQM/view?usp=drive_link',
+      driveLink: 'https://drive.google.com/drive/folders/1-1-xbSOpoMa6BncMiRW5J219KCGS0J5u?usp=sharing',
+    gitLink: 'https://github.com/saqibkkk/chatting_application'
   ),
   ProjectUtils(
       image: 'assets/projects/vpn.jpg',
