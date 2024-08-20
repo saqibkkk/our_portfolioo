@@ -36,8 +36,8 @@ class DesktopMain extends StatelessWidget {
                 TypingTextSwitcher(
                   controller: typingController,
                   textStyle: TextStyle(
-                    fontFamily: "FontMain",
-                    fontSize: 60,
+                    fontFamily: "NOVA",
+                    fontSize: 50,
                     // fontStyle: FontStyle.italic,
                     fontWeight: FontWeight.bold,
                     color:

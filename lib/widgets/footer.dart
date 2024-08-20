@@ -21,7 +21,7 @@ class Footer extends StatelessWidget {
               style: TextStyle(
                   fontFamily: "FontNavBar",
                   fontWeight: FontWeight.bold,
-                  fontSize: screenWidth > 600 ? 40 : 18,
+                  fontSize: screenWidth > 600 ? 30 : 18,
                   color: theme.theme == '1'
                       ? theme.textLight.value
                       : theme.bgLight2.value),

@@ -39,9 +39,9 @@ class MobileMain extends StatelessWidget {
                 child: TypingTextSwitcher(
                   controller: controller,
                   textStyle: TextStyle(
-                      fontFamily: "FontMain",
+                      fontFamily: "NOVA",
                     fontWeight: FontWeight.w800,
-                    fontSize: 30,
+                    fontSize: 22,
                     color: theme.textLight.value
                   ),
                 ),

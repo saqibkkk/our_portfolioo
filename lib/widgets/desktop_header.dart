@@ -1,6 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get_state_manager/src/simple/get_state.dart';
+import 'package:lottie/lottie.dart';
 import 'package:our_portfolio/widgets/site_logo.dart';
 import '../Controllers/theme_controller.dart';
 import '../constants/nav_items.dart';

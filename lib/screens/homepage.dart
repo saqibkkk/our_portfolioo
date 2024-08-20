@@ -112,9 +112,9 @@ class _HomepageState extends State<Homepage> {
                                 Text(
                                   "Our Services:",
                                   style: TextStyle(
-                                    fontFamily: "FontMain",
+                                    fontFamily: "NOVA",
                                     fontWeight: FontWeight.bold,
-                                    fontSize: 40,
+                                    fontSize: 30,
                                     color: theme.theme == '1'
                                         ? theme.textLight.value
                                         : theme.textDark.value,
@@ -143,9 +143,9 @@ class _HomepageState extends State<Homepage> {
                                 Text(
                                   "Get In Touch",
                                   style: TextStyle(
-                                    fontFamily: "FontMain",
+                                    fontFamily: "NOVA",
                                     fontWeight: FontWeight.bold,
-                                    fontSize: 40,
+                                    fontSize: 30,
                                     color: theme.theme == '1'
                                         ? theme.textLight.value
                                         : theme.textDark.value,

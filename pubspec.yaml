@@ -58,6 +58,11 @@ flutter:
     - family: FontMain
       fonts:
         - asset: assets/fonts/2.ttf
+
+
+    - family: NOVA
+      fonts:
+        - asset: assets/fonts/NOVA.ttf
   #       - asset: fonts/TrajanPro_Bold.ttf
   #         weight: 700
   #

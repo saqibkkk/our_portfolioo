@@ -63,24 +63,24 @@ class MobileSkillsPlatform extends StatelessWidget {
                                 crossAxisAlignment: CrossAxisAlignment.center,
                                 children: [
                                   Padding(
-                                    padding: const EdgeInsets.only(left: 20, right: 20),
+                                    padding: const EdgeInsets.only(left: 15, right: 15),
                                     child: Image.asset(
                                       skillItems[index]['img'],
-                                      width: 70,
-                                      height: 70,
+                                      width: 50,
+                                      height: 50,
                                     ),
                                   ),
                                   SizedBox(height: 20),
                                   Padding(
-                                    padding: const EdgeInsets.only(left: 20, right: 20),
+                                    padding: const EdgeInsets.only(left: 15, right: 15),
                                           child: Text(
                                       skillItems[index]['title'],
                                       style: TextStyle(
-                                        fontFamily: "FontMain",
+                                        fontFamily: "NOVA",
                                         color: theme.theme == '1' || theme.theme == '7'
                                             ?theme.textLight.value
                                             :theme.textDark.value,
-                                        fontSize: 25,
+                                        fontSize: 20,
                                         fontWeight: FontWeight.bold,
                                       ),
                                             textAlign: TextAlign.center,

@@ -88,15 +88,15 @@ class DesktopSkillsPlatform extends StatelessWidget {
                                 SizedBox(height: 20), // Spacing between image and text
                                 // Centered text
                                 Padding(
-                                  padding: const EdgeInsets.only(left: 20, right: 20),
+                                  padding: const EdgeInsets.only(left: 12, right: 12),
                                   child: Text(
                                     skillItems[index]['title'],
                                     style: TextStyle(
-                                      fontFamily: "FontMain",
+                                      fontFamily: "NOVA",
                                       color: theme.theme == '1' || theme.theme == '7'
                                           ? theme.textLight.value
                                           : theme.textDark.value,
-                                      fontSize: 30,
+                                      fontSize: 25,
                                       fontWeight: FontWeight.bold,
                                     ),
                                     textAlign: TextAlign.center, // Center text horizontally

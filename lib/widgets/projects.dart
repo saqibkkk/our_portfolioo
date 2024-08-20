@@ -26,9 +26,9 @@ class Projects extends StatelessWidget {
             Text(
               "Work Projects:",
               style: TextStyle(
-                fontFamily: "FontMain",
+                fontFamily: "NOVA",
                 fontWeight: FontWeight.bold,
-                fontSize: 40,
+                fontSize: 30,
                   color: theme.theme == '1'
                       ?theme.textLight.value
                       :theme.textDark.value,),
@@ -57,9 +57,9 @@ class Projects extends StatelessWidget {
             Text(
               "My Hobby Projects:",
               style: TextStyle(
-                fontFamily: "FontMain",
+                fontFamily: "NOVA",
                 fontWeight: FontWeight.bold,
-                fontSize: 40,
+                fontSize: 30,
                   color: theme.theme == '1'
                       ?theme.textLight.value
                       :theme.textDark.value,),

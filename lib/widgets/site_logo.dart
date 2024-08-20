@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:lottie/lottie.dart';
 import '../Controllers/theme_controller.dart';
 
 class SiteLogo extends StatelessWidget {
