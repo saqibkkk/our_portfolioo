@@ -6,7 +6,6 @@ class Assets {
   static const String animations37 = 'assets/animations/37.json';
   static const String animations4 = 'assets/animations/4.json';
   static const String animations5 = 'assets/animations/5.json';
-  static const String animationsData2 = 'assets/animations/data2.json';
   static const String availabilityAppstore = 'assets/availability/appstore.png';
   static const String availabilityDrive = 'assets/availability/drive.png';
   static const String availabilityPlaystore = 'assets/availability/playstore.png';
