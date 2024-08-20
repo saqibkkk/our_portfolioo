@@ -33,6 +33,7 @@ class Assets {
   static const String platformSeo = 'assets/platform/seo.png';
   static const String platformWebsitedev = 'assets/platform/websitedev.png';
   static const String projectsAccounting = 'assets/projects/accounting.jpg';
+  static const String projectsAccountingTemp = 'assets/projects/accounting_temp.jpg';
   static const String projectsChatting = 'assets/projects/chatting.jpg';
   static const String projectsEmood = 'assets/projects/emood.png';
   static const String projectsGoodmovers = 'assets/projects/goodmovers.png';

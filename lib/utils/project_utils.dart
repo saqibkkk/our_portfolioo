@@ -51,7 +51,7 @@ List<ProjectUtils> workProjectUtils = [
       subtitle: 'React based web application. A user-friendly platform to empower individuals to navigate their moves.',
       webLink: 'https://mymovingjourney.com/'),
   ProjectUtils(
-      image: 'assets/projects/accounting.jpg',
+      image: 'assets/projects/accounting_temp.jpg',
       title: "Accounting Application",
       subtitle: 'A flutter based under development accounting application with completed frontend.',
       driveLink: 'https://drive.google.com/file/d/15P-P5B3O29rMal9UiST_y0LwNJrhyBSq/view?usp=sharing'),
