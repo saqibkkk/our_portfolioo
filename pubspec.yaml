@@ -55,11 +55,6 @@ flutter:
         - asset: assets/fonts/1.ttf
 
 
-    - family: FontMain
-      fonts:
-        - asset: assets/fonts/2.ttf
-
-
     - family: NOVA
       fonts:
         - asset: assets/fonts/NOVA.ttf
