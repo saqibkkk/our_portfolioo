@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 List<String> navTitles = [
-  // 'Home',
+  'Home',
   'Skills',
   'Projects',
   'Contacts'
